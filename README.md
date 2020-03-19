@@ -106,3 +106,6 @@ layout="${exception:format=:innerFormat=ShortType,Message,Method:MaxInnerExcepti
 <logger levels="Error,Warn,Fatal" name="databaseLogger" writeTo="database"/></rules>
 ```
 
+## Useful Links
+1. [NLog Documentation](https://github.com/NLog/NLog/wiki/Tutorial) for .NET Framework(Config options for NLog's configuration) 
+2. [Database target](https://github.com/NLog/NLog/wiki/Database-target) Writes log messages to the database using an ADO.NET provider.
